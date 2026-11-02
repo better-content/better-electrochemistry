@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.bettercontent.electrochemistry.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "better_electrochemistry.refmap.json",
+  "mixins": [
+    "BasinPowerEndpointMixin",
+    "BasinBatchStateMixin",
+    "BasinOperatorArbitrationMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {"item": "minecraft:cobblestone"}
+  ],
+  "results": [
+    {"item": "minecraft:gravel", "count": 1}
+  ]
+}

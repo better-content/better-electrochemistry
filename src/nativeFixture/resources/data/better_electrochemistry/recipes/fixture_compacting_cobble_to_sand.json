@@ -1,0 +1,9 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {"item": "minecraft:cobblestone"}
+  ],
+  "results": [
+    {"item": "minecraft:sand", "count": 1}
+  ]
+}

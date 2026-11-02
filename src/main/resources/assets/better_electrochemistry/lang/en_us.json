@@ -1,0 +1,18 @@
+{
+  "fluid_type.better_electrochemistry.aqueous_copper_ii_sulfate": "Aqueous Copper(II) Sulfate",
+  "fluid.better_electrochemistry.aqueous_copper_ii_sulfate": "Aqueous Copper(II) Sulfate",
+  "block.better_electrochemistry.aqueous_copper_ii_sulfate": "Aqueous Copper(II) Sulfate",
+  "item.better_electrochemistry.aqueous_copper_ii_sulfate_bucket": "Bucket of Aqueous Copper(II) Sulfate",
+  "item.better_electrochemistry.bath_recovery_canister": "Bath Recovery Canister (250 mB capacity)",
+  "emi.category.better_electrochemistry.basin_batch": "Powered Basin Electroforming",
+  "better_electrochemistry.emi.bath_retained": "Bath: %s mB retained",
+  "better_electrochemistry.emi.bath_refund": "Normal completion returns 250 mB to the Basin. Breaking it can lose the bath; a filled canister appears only if an exceptional refund succeeds",
+  "better_electrochemistry.emi.bath_refund_short": "Canister only on refund",
+  "better_electrochemistry.emi.voltage": "Minimum operating voltage: %s V",
+  "better_electrochemistry.emi.work": "Electrical work per batch: %s J",
+  "better_electrochemistry.emi.input_anode": "Consumed copper input: %s",
+  "better_electrochemistry.emi.input_seed": "Consumed seed sheet: %s",
+  "better_electrochemistry.emi.output": "Finished sheets: %s",
+  "better_electrochemistry.emi.basin": "Live PowerGrid + Basin required",
+  "better_electrochemistry.emi.no_transfer": "No transfer / autocrafting"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "better_electrochemistry:basin_batch",
+  "ingredient": {"item": "minecraft:cobblestone", "count": 1},
+  "result": {"item": "minecraft:stone", "count": 1},
+  "min_voltage": 10,
+  "work_joules": 24
+}
