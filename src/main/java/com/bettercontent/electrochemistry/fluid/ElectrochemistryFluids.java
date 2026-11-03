@@ -73,9 +73,9 @@ public final class ElectrochemistryFluids {
     // All registration suppliers are lazy; FLUID_PROPERTIES is initialized before
     // any deferred register event constructs a fluid, bucket, or liquid block.
     public static final RegistryObject<FlowingFluid> SOURCE =
-            FLUIDS.register(AQUEOUS_ID, () -> new ForgeFlowingFluid.Source(FLUID_PROPERTIES));
+            FLUIDS.register(AQUEOUS_ID, () -> new ForgeFlowingFluid.Source(ElectrochemistryFluids.FLUID_PROPERTIES));
     public static final RegistryObject<FlowingFluid> FLOWING =
-            FLUIDS.register("flowing_" + AQUEOUS_ID, () -> new ForgeFlowingFluid.Flowing(FLUID_PROPERTIES));
+            FLUIDS.register("flowing_" + AQUEOUS_ID, () -> new ForgeFlowingFluid.Flowing(ElectrochemistryFluids.FLUID_PROPERTIES));
     public static final RegistryObject<LiquidBlock> BLOCK = BLOCKS.register(AQUEOUS_ID,
             () -> new LiquidBlock(SOURCE, BlockBehaviour.Properties.of()
                     .noCollission().strength(100.0F).noLootTable()));
